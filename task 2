@@ -8,7 +8,7 @@ Document:
     The document actually gets loaded inside the window object and has properties available to it like title, URL, cookie, etc.
     That means if you want to access a property for the window it is window.property, if it is document it is window.document.property 
         which is also available in short as document.property.
-   An iframe actually is considered as a new window with its own document loaded into it. 
+   An iframe actually is considered as a new window with its own document loaded into it.  
    Here is where it may seem a little odd, but does make sense if you think about it.
    The original, parent window, is responsible for other windows to be loaded, not the document.
 Javascript Window Object with Iframe:
